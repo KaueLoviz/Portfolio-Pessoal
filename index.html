@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,13 +15,20 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--==================== ICONE SITE ====================-->
+    <link rel="shortcut icon" href="assets/img/icone.png" >
+
+    <!--==================== AOS JS ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Portfolio Pessoal Responsivo</title>
 </head>
+
 <body>
     <!--==================== HEADER ====================-->
     <header id="header" class="header">
         <nav class="nav conatiner">
-            <a href="#" class=""nav_logo>Kauê</a>
+            <a href="#" class="" nav_logo>Kauê</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -78,7 +86,8 @@
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
 
-                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511960443925" target="_blank" class="home__social-icon">
+                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511960443925" target="_blank"
+                            class="home__social-icon">
                             <i class="uil uil-whatsapp"></i>
                         </a>
 
@@ -88,25 +97,26 @@
                     </div>
 
                     <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
                                 <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
                             </mask>
                             <g mask="url(#mask0)">
                                 <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home__blob-img" x='20' y='-60' xlink:href="assets/img/conceitual.png"/>
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x='20' y='-60' xlink:href="assets/img/conceitual.png" />
                             </g>
                         </svg>
 
                     </div>
 
-                    <div class="home__data">
+                    <div class="home__data" data-aos="fade-right" data-aos-delay="40">
                         <h1 class="home__title">Hello, I'am Kauê</h1>
                         <h3 class="home__subtitle">Full Stack JR</h3>
                         <p class="home__description">I have a degree in Systems Development, currently studying ADS.</p>
@@ -128,12 +138,163 @@
 
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
+            <h2 class="section__title" data-aos="fade-up" data-aos-duration="800">About Me</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-duration="800">My Introduction</span>
 
+            <div class="about__container conatiner grid"  data-aos="fade-up" data-aos-duration="1500">
+                <img src="assets/img/foto-quadrada.jpg" alt="" class="about__img">
+
+                <div class="about__data" data-aos="fade-up" data-aos-duration="1000">
+                    <p class="about__description">Full Stack Developer, graduated in Systems Development and with vast
+                        knowledge in the area, working and
+                        studying on back-end and front-end technologies, delivering quality work.</p>
+
+                    <div class="about__info" data-aos="fade-up" data-aos-duration="1000">
+                        <div>
+                            <span class="about__info-title">3+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">4</span>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">1</span>
+                            <span class="about__info-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+                    <div class="about__buttons" data-aos="fade-up" data-aos-duration="850">
+                        <a download="" href="assets/pdf/CV Kauê Loviz de Oliveira.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!--==================== SKILLS ====================-->
-        <section class="skills section" id="skills">
+        <section class="skills__section" id="skills">
+            <h2 class="section__title" data-aos="fade-up" data-aos-duration="800">Skills</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-duration="800">My technical level</span>
 
+            <div class="skills__container container grid" data-aos="fade-right" data-aos-duration="1000">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Front-end Developer</h1>
+                                <span class="skills__subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Back-end Developer</h1>
+                                <span class="skills__subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
         <!--==================== QUALIFICATION ====================-->
@@ -174,11 +335,18 @@
 
     <!--==================== SCROLL TOP  ====================-->
 
+    <!--==================== AOS JS ====================-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
-    
+
 </body>
+
 </html>

@@ -285,7 +285,7 @@ img {
 .home__blob-img{
     width: 200px;
     transform: translateY(0px);
-    animation: float 4s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
 }
 
 /*Animação de Movimento para imagem */

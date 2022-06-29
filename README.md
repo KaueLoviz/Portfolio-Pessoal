@@ -2,7 +2,7 @@
 # Portfolio Pessoal
 
 
-Uma pagina web contendo todas as informações individuais sobre o usuario, totalmente responsiva.
+Uma pagina web contendo todas as informações minhas individuais, totalmente responsiva.
 
 
 ## Author🙋‍♂️

@@ -1,4 +1,3 @@
-![Logo](./assets/img/perfil-pessoal.png)
 # Portfolio Pessoal
 
 

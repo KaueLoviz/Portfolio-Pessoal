@@ -12,5 +12,5 @@ Uma pagina web contendo todas as informações minhas individuais, totalmente re
 **Front-end:** HTML, CSS e JavaScript.
 
 
-## Link🙅‍♂️
+## Link
 - [Portfolio]( https://kaueloviz.github.io/Portfolio-Pessoal/) 

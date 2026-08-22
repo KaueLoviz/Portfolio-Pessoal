@@ -92,8 +92,8 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
   keyboard: true,
 });
 
-/*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper(".testimonial__container", {
+/*==================== CERTIFICATIONS ====================*/
+let swiperCertification = new Swiper(".certification__container", {
   loop: true,
   grabCursor: true,
   spaceBetween: 48,
